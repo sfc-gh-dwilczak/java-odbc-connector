@@ -14,7 +14,7 @@ public class SnowflakeExample {
         String role              = "service_syndigo";
         String warehouse         = "service_syndigo";
         String user              = "service_syndigo";
-        String password          = "Password12";
+        String password          = "...";
         String database          = "SYNDIGO";
 
         String url = "jdbc:snowflake://"+account_identifer+".snowflakecomputing.com/?warehouse="+warehouse+"&role="+role;

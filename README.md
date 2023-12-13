@@ -11,7 +11,7 @@ Begin;
     -- create variables for user / password / role / warehouse / database (needs to be uppercase for objects)
     set role_name = 'service_syndigo';
     set user_name = 'service_syndigo';
-    set user_password = 'Password12';
+    set user_password = '...';
     set warehouse_name = 'service_syndigo';
     set database_name = 'syndigo';
 
@@ -82,7 +82,7 @@ public class SnowflakeExample {
         String role              = "service_syndigo";
         String warehouse         = "service_syndigo";
         String user              = "service_syndigo";
-        String password          = "Password12";
+        String password          = "...";
         String database          = "SYNDIGO";
 
         String url = "jdbc:snowflake://"+account_identifer+".snowflakecomputing.com/?warehouse="+warehouse+"&role="+role;

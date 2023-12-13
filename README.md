@@ -4,7 +4,8 @@ This tutorial will show you how to create a connector to load data into snowflak
 ## Steps:
 There is really only four steps.
 
-### 1. Get your customer to run this sql in there snowflake account and then have them tell you what they used as variables:
+### 1. Sql 
+Get your customer to run this sql in there snowflake account and then have them tell you what they used as variables:
 ```sql
 Begin; 
     -- create variables for user / password / role / warehouse / database (needs to be uppercase for objects)
@@ -140,11 +141,11 @@ public class SnowflakeExample {
 ```
 
 ### 4. Result:
-Here is the result of me running it and the output in snowflake.
+Here is the result of me running it on my local machine:
+![Create S3](images/01_java_run.png)
 
-IMAGE HERE.
-
-IMAGE HERE. 
+The result on snowflake:
+![Create S3](images/02_snowflake_result.png)
 
 
 
